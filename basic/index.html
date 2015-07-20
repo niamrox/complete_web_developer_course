@@ -9,9 +9,32 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-<h1>Image</h1>
+<h1>Table</h1>
 
-<img src="images/htmlicon.png" alt="Image Alt tag" heght="500px" width="500px"/>
+<table border="1" bgcolor="#add8e6" cellpadding="20" cellspacing="5">
+    <tr>
+        <th>Heading 1</th>
+        <th>Heading 2</th>
+        <th>Heading 3</th>
+        <th>Heading 4</th>
+    </tr>
+    <tr>
+        <td rowspan="4">Long Column</td>
+        <td colspan="3">Long Row Top</td>
+    </tr>
+    <tr>
+        <td>Data</td>
+        <td>Data</td>
+        <td>Data</td>
+    </tr>
+    <tr>
+        <td>Data</td>
+        <td colspan="2">2 Cols Merged</td>
+    </tr>
+    <tr>
+        <td colspan="3">Long Row Bottom</td>
+    </tr>
+</table>
 
 </body>
 </html>
