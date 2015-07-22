@@ -9,22 +9,26 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-<h1>Various Form</h1>
+<h1>Form</h1>
+    <form action="" method="post">
+        <input name="name" type="text">
+        <input name="password" type="password">
+        <input name="radio" type="radio">
+        <input name="checkbox" type="checkbox">
+        <input name="submit" type="submit">
+        <input name="image" type="image">
+        <input name="reset" type="reset">
+        <input name="file" type="file">
 
-<form action="" method="post">
-    First Name : <input name="first-name" value="first-name" type="text">
-    2nd Name : <input name="2nd-name" type="text">
-    Male <input type="radio" name="sex" value="male" checked>
-    Female <input type="radio" name="sex" value="female">
-    <textarea name="bio-data">Input small bio about you</textarea>
-    Graduation Information :
-    <select name="graduation">
-        <option value="Hons">Hons</option>
-        <option value="Masters">Masters</option>
-    </select>
-    <button type="submit" name="submit">Submit</button>
-
-</form>
-
+        <textarea name="textarea" rows="20" cols="30">Write some text</textarea>
+        <button name="process" type="submit">Submit</button>
+        <select name="exam">
+            <option value="option1">First Option</option>
+            <option value="option2">2nd Option</option>
+            <option value="option3">3rd Option</option>
+            <option value="option4">4th Option</option>
+            <option value="option5">5th Option</option>
+        </select>
+    </form>
 </body>
 </html>
