@@ -1,0 +1,22 @@
+table {
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+td {
+    border: 1px solid #000;
+}
+
+th {
+    border: 1px solid red;
+}
+
+
+ul li{
+    color: green;
+    display: inline-block;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 10px;
+}
