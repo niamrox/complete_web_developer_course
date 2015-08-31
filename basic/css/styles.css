@@ -1,17 +1,58 @@
-.btn{
-    background-color: green;
-    color: #fff;
-    padding: 10px 20px;
+body {
+    background-color: #cb4b69;
+}
+
+header {
+    margin-top: 100px;
+    background: #403335;
+    text-align: center;
+}
+
+ul.main-nav {
+
+}
+
+ul.main-nav li {
+    display: inline-block;
+}
+
+ul.main-nav li a {
+    padding: 15px 35px;
     text-decoration: none;
-    cursor: pointer;
-    border-radius: 10px;
-    box-shadow: 0 0 5px #000;
+    font-size: 16px;
+    color: #918b71;
+    display: block;
 }
 
-.btn:hover{
-    background: red;
+ul.main-nav li a:hover, ul.main-nav li a:focus, ul.main-nav li.active a {
+    color: #ce4c6b;
+    background: #2f2627;
 }
 
-.btn:focus{
-    background: yellow;
+li.dropdown {
+    position: relative;
+
+}
+
+ul.sub-menu {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    background: #2f2627;
+    text-align: left;
+    min-width: 250px;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 500ms;
+}
+
+ul.sub-menu li a {
+    line-height: 10px;
+}
+
+li.dropdown:hover ul.sub-menu {
+    top: 49px;
+    opacity: 1;
 }
