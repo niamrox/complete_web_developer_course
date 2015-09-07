@@ -1,21 +1,17 @@
-ul li{
-    list-style: none;
-    border-bottom: 1px solid #ccc;
-    padding: 10px 15px;
-}
-
-ul li:last-child{
-    border-bottom: none;
-}
-
-ul li:first-child{
-    border-top: 1px solid #ccc;
-}
-
-ul li:nth-of-type(2n+1){
-    background: green;
-}
-
-ul li:nth-of-type(2n){
+.box{
+    width: 200px;
+    height: 200px;
     background: red;
+    margin: 50px auto;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -ms-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;;
+}
+
+.box:hover{
+    background: green;
+    padding: 50px;
+    border-radius: 50%;
 }
