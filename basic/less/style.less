@@ -1,0 +1,22 @@
+body{
+  background: @body_color;
+}
+
+body,p,span,div,ul,li{
+  font-size: @primary_font_size;
+}
+
+h1{
+  font-size: @primary_font_size * 2;
+}
+
+h2{
+  font-size: @primary_font_size * 1.2;
+}
+
+a{
+  color: @primary_color;
+  &:visited,&:hover,&:focus{
+    color: darken(@primary_color,20%);
+  }
+}
