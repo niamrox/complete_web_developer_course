@@ -1,22 +1,25 @@
+.btn{
+  padding: 10px 30px;
+}
+
+.btn-success{
+  background: green;
+}
+
+.btn-round{
+  .round(4px)
+}
+
+.combine-btn{
+  .btn;
+  .round(4px);
+  .btn-success;
+}
+
+.btn-circle-2{
+  .round(7px)
+}
+
 body{
-  background: @body_color;
-}
-
-body,p,span,div,ul,li{
-  font-size: @primary_font_size;
-}
-
-h1{
-  font-size: @primary_font_size * 2;
-}
-
-h2{
-  font-size: @primary_font_size * 1.2;
-}
-
-a{
-  color: @primary_color;
-  &:visited,&:hover,&:focus{
-    color: darken(@primary_color,20%);
-  }
+  .round(50px);
 }
