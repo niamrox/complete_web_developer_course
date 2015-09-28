@@ -1,16 +1,18 @@
-/**
- * Created by niamul on 6/13/15.
- */
-//toggle navigation
+$(document).ready(function() {
 
-    $('.btn').click(function(){
-        if($('.more').hasClass('visible')){
-            $('.more').removeClass('visible');
-            $('.more').addClass('hidden');
+    $("#owl-demo").owlCarousel({
 
-        } else {
-            $('.more').removeClass('hidden');
-            $('.more').addClass('visible');
-        }
-        return false;
+        autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+        items : 5,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3],
+        autoPly : true,
+        stopOnHover : true,
+        navigation : true,
+        pagination :true
+
+
     });
+
+});
