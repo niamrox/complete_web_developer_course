@@ -1,7 +1,22 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: niamul
- * Date: 10/15/15
- * Time: 3:25 AM
- */
+
+$string="Hello World";
+$integer=9;
+$float=9.02;
+$car=array("Toyota","BMW");
+
+class car{
+    function car(){
+        $this->model="BMW";
+    }
+
+}
+
+$jaguar=new car();
+
+echo $jaguar->model;
+
+
+
+
+?>
