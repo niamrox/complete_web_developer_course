@@ -1,22 +1,19 @@
 <?php
+$marks=array(
+  "niam"=>array(
+   "Physics"=>"50",
+      "Math"=>"70"
+  ) ,
+    "emon"=>array(
+        "Physics"=>"50",
+        "Math"=>"90"
+    ),
+    "ayyash"=>array(
+        "Physics"=>"50",
+        "Math"=>"70"
+    )
+);
 
-$string="Hello World";
-$integer=9;
-$float=9.02;
-$car=array("Toyota","BMW");
-
-class car{
-    function car(){
-        $this->model="BMW";
-    }
-
-}
-
-$jaguar=new car();
-
-echo $jaguar->model;
-
-
-
+echo $marks['emon']['Math'];
 
 ?>
